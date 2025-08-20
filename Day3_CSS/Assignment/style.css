@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*,html{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+
+}
+.box{
+    width: 195px;
+    height: 195px;
+
+}
+/* .box:nth-child(odd){
+    background-color: #999;
+} */
