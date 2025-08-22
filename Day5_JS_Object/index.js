@@ -1,6 +1,7 @@
 const emp={
     name:"abhay",
     age:21,
+    22:"myAge",
     isMarried:false,
     add:"GZB",
     languages:{
@@ -29,6 +30,12 @@ console.log(emp.databeses[1].frmwrk2);
 // insert key into object
 emp.company="Infosys";
 console.log(emp);
+//update key's value
+emp.databeses[0].db1="MongoDB";
+console.log(emp);
+
+// incase of numeric keys..access using brackets
+console.log(emp[22]);
 
 // display object's keys
 /* function display(){
@@ -37,3 +44,7 @@ console.log(emp);
     }
 }
 display(); */
+
+//delete keys
+console.log(delete emp[22]);
+console.log(emp);
